@@ -29,4 +29,5 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
             "response_text": response_text
         }
 
-    return func.HttpResponse(body=json.dumps(response), mimetype="application/json")
+    #return func.HttpResponse(body=json.dumps(response), mimetype="application/json")
+    return func.HttpResponse(body=response_text, mimetype="text/plain")

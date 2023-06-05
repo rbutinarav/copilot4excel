@@ -3,6 +3,7 @@ local.settings.json
 __pycache__/
 *.py[cod]
 .vscode
+test
 
 # Azure Functions local settings file
 local.settings.json
