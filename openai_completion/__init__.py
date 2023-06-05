@@ -1,7 +1,7 @@
 import os
 import json
 import azure.functions as func
-import openaicd..
+import openai
 
 def main(req: func.HttpRequest) -> func.HttpResponse:
     prompt = req.params.get('prompt', 'Hello')
